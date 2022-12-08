@@ -32,10 +32,9 @@ git clone https://github.com/Danielstarks/web-viagens.git
 cd web-viagens
 code .
 
+#instalação vs code.
 sudo apt-get install vs-code
- 
-# executar o projeto
-plugin live 
+
 ```
 
 # Autor
@@ -44,16 +43,22 @@ Daniel Gomes dos Santos
 
 https://www.linkedin.com/in/daniel-santos1/
 
-# entrar na pasta do projeto front end web
+# entrar na pasta do projeto web-viagens
+ ```bash
 cd web-viagens
-
+```
 # instalar dependências
- VS CODE
+ - VS CODE
  <br>
-sudo apt-get install vs-code
+ https://code.visualstudio.com/download
+ <br>
  
-# executar o projeto
-plugin live serve
+ # Linux bash
+ ```bash
+sudo apt-get install vs-code
+ ```
+# Tools vs code para executar o projeto.
+- Plugin Live server
 
 
 
