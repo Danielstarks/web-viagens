@@ -49,6 +49,7 @@ cd web-viagens
 
 # instalar dependências
  VS CODE
+ <br>
 sudo apt-get install vs-code
  
 # executar o projeto
