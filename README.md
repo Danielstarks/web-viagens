@@ -28,15 +28,14 @@ Pré-requisitos: git / github / bash / vs code
 # clonar repositório
 git clone https://github.com/Danielstarks/web-viagens.git
 
-# entrar na pasta do projeto front end web
+# entrar na pasta do projeto  e  iniciar  vs code.
 cd web-viagens
+code .
 
-# instalar dependências
- VS CODE
 sudo apt-get install vs-code
  
 # executar o projeto
-plugin live serve
+plugin live 
 ```
 
 # Autor
