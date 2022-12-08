@@ -43,6 +43,7 @@ plugin live serve
 
 Daniel Gomes dos Santos
 
+https://www.linkedin.com/in/daniel-santos1/
 
 # entrar na pasta do projeto front end web
 cd web-viagens
@@ -54,11 +55,6 @@ sudo apt-get install vs-code
  
 # executar o projeto
 plugin live serve
-```
 
-# Autor
 
-Daniel Gomes dos Santos
-
-https://www.linkedin.com/in/daniel-santos1/
 
