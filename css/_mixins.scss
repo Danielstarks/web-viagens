@@ -1,0 +1,30 @@
+// header
+@mixin gradient {
+ background: $bg-gradient;
+}
+
+// box services
+
+@mixin box {
+    height: 340px;
+    width: auto;
+    border-radius: 10px;
+    overflow: hidden;
+    background: rgb(66, 65, 65);
+    transition: all 0.8s;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+@mixin box-gradient{
+    background: $box-gradient;
+}
+@mixin box-hover {
+    transform: translateY(20px);
+    transition: all 0.5s ease;
+    opacity: 0.6;
+}

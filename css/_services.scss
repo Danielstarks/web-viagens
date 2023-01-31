@@ -1,0 +1,61 @@
+.heading {
+    text-align: center;
+}
+
+.heading h2 {
+    font-size: 40px;
+    color: white;
+    letter-spacing: 0.5px;
+    margin-bottom: 30px;
+}
+
+.heading p {
+    color: #9bacc4;
+    font-size: 15px;
+    line-height: 28px;
+}
+
+//=================
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+    grid-gap: 1.7rem;
+    align-items: center;
+    margin-top: 5rem;
+
+    .box {
+        @include box;
+    }
+
+    .box1 {
+        @include box-gradient;
+
+        &:hover {
+            @include box-hover;
+        }
+    }
+
+    .box2 {
+        @include box-gradient;
+
+        &:hover {
+            @include box-hover;
+        }
+    }
+
+    .box3 {
+        @include box-gradient;
+
+        &:hover {
+            @include box-hover;
+        }
+    }
+
+    .box4 {
+        @include box-gradient;
+
+        &:hover {
+            @include box-hover;
+        }
+    }
+}
