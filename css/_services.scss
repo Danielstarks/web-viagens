@@ -1,3 +1,5 @@
+
+// Services 
 .heading {
     text-align: center;
 }
@@ -16,13 +18,21 @@
     margin-bottom: 8rem;
 }
 
-//=================
+// Box services
 .container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, auto));
     grid-gap: 1.7rem;
     align-items: center;
     margin-top: 5rem;
+
+    .in {
+        position: absolute;
+        bottom: 20px;
+        color: white;
+        font-size: 22px;
+        letter-spacing: 1px;
+      }
 
     .box {
         @include box;
@@ -59,4 +69,7 @@
             @include box-hover;
         }
     }
+
+   
+    
 }
