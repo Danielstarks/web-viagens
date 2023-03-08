@@ -1,6 +1,6 @@
 // header
 @mixin gradient {
- background: $bg-gradient;
+    background: $bg-gradient;
 }
 
 // box services
@@ -12,19 +12,25 @@
     overflow: hidden;
     background: rgb(66, 65, 65);
     transition: all 0.8s;
-    cursor: pointer;
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 }
 
-@mixin box-gradient{
+@mixin box-gradient {
     background: $box-gradient;
 }
+
 @mixin box-hover {
     transform: translateY(20px);
     transition: all 0.5s ease;
     opacity: 0.6;
+
+    .in a {
+        color: white;
+        background-color:rgb(2, 131, 148);;
+        
+    }
 }

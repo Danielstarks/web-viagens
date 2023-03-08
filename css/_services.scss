@@ -1,75 +1,83 @@
+// Services
+.ab-text {
+  padding: 100px 20%;
+}
 
-// Services 
 .heading {
-    text-align: center;
+  text-align: center;
 }
 
 .heading h2 {
-    font-size: 60px;
-    color: white;
-    letter-spacing: 0.5px;
-    margin-bottom: 8rem;
+  font-size: 60px;
+  color: white;
+  letter-spacing: 0.5px;
+  margin-bottom: 8rem;
 }
 
 .heading p {
-    color: #9bacc4;
-    font-size: 20px;
-    line-height: 28px;
-    margin-bottom: 8rem;
+  color: #9bacc4;
+  font-size: 20px;
+  line-height: 28px;
+  margin-bottom: 8rem;
 }
 
 // Box services
 .container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, auto));
-    grid-gap: 1.7rem;
-    align-items: center;
-    margin-top: 5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+  grid-gap: 1.7rem;
+  align-items: center;
+  margin-top: 5rem;
 
-    .in {
-        position: absolute;
-        bottom: 20px;
-        color: white;
-        font-size: 22px;
-        letter-spacing: 1px;
-      }
+  .in {
+    position: absolute;
+    bottom: 20px;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1px;
+    
+  }
 
-    .box {
-        @include box;
+  .box {
+    @include box;
+    
+    .in a {
+      color: white;
+      text-decoration: none;
+      background-color: #9bacc46b;
+      padding: 10px 25px;
+      border-radius: 20px;
     }
-
+  }
     .box1 {
-        @include box-gradient;
-
-        &:hover {
-            @include box-hover;
-        }
+      @include box-gradient;
+      &:hover {
+        @include box-hover;
+      }
     }
 
     .box2 {
-        @include box-gradient;
+      @include box-gradient;
 
-        &:hover {
-            @include box-hover;
-        }
+      &:hover {
+        @include box-hover;
+      }
     }
 
     .box3 {
-        @include box-gradient;
+      @include box-gradient;
 
-        &:hover {
-            @include box-hover;
-        }
+      &:hover {
+        @include box-hover;
+      }
     }
 
     .box4 {
-        @include box-gradient;
+      @include box-gradient;
 
-        &:hover {
-            @include box-hover;
-        }
+      &:hover {
+        @include box-hover;
+      }
     }
-
-   
-    
+  
 }
